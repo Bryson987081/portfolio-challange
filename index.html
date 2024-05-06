@@ -8,11 +8,13 @@
 </head>
 <body>
     <header>
-        <img src="https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png" alt="Profile Picture"/><h1>Bryson's Portfolio</h1>
+        <img class="avatar" src="https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png" alt="Profile Picture"/><h1>Bryson's Portfolio</h1>
         <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#work">My Work</a>
-            <a href="#contact-me">Contact Me</a>
+            <ul class="nav-links">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
          </nav>
     </header>
 
@@ -21,29 +23,25 @@
      <h2>About Me</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe molestiae, eos quia pariatur nesciunt numquam suscipit doloremque magni possimus architecto, id impedit! Earum, nulla! Perferendis deleniti qui deserunt ipsum doloremque.</p>
      </section>
-
-     <section id="work">
-        <h2>My Work</h2>
-        <section class="html-seo-refactor">
+     <div id="work">
+        <aside><h2>My Work</h2></aside>
+        <article class="html-seo-refactor">
             <a href="https://bryson987081.github.io/html-seo-refactor/", target="_blank">HTML SEO Refactor</a>
-            <img src="https://repository-images.githubusercontent.com/318677555/08ac4780-3c5f-11eb-9d12-93c524ece0e6" alt="HTML SEO Refactor"/>
-        </section>
-        <section class="project2">
-            <img src="https://placehold.jp/200x200.png" alt="placeholder">Coming Soon</a>
-        </section>
-        <section class="project3">
-            <img src="https://placehold.jp/200x200.png" alt="placeholder">Coming Soon</a>
-        </section>
-        <section class="project4">
-            <img src="https://placehold.jp/200x200.png" alt="placeholder">Coming Soon</a>
-        </section>
-        <section class="project5">
-            <img src="https://placehold.jp/200x200.png" alt="placeholder">Coming Soon</a>
-        </section>
-
-
-     </section> 
-
+            <img src="https://placehold.jp/600x300.png" alt="placehold"/>
+        </article>
+        <article class="coming-soon1">
+            <img src="https://placehold.jp/300x300.png" alt="placeholder">Coming Soon</a>
+        </article>
+        <article class="coming-soon2">
+            <img src="https://placehold.jp/300x300.png" alt="placeholder">Coming Soon</a>
+        </article>
+        <article class="coming-soon3">
+            <img src="https://placehold.jp/300x300.png" alt="placeholder">Coming Soon</a>
+        </article>
+        <article class="coming-soon4">
+            <img src="https://placehold.jp/300x300.png" alt="placeholder">Coming Soon</a>
+        </article>
+    </div> 
     </main>    
 
      <footer id="contact-me">
