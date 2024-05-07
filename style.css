@@ -17,39 +17,56 @@ body {
  }
 
 
- .nav-links li {
+ nav {
     display: flex;
-    border: solid black 2px;
     padding: 5px;
+    margin: 40px 0px 100px;
     width: 100%;
     border-radius: 20px;
+    justify-content: center;
+    background-color: aliceblue;
+    boc
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+
+ li {
+    float: left;
  }
 
 
- .nav-links li a {
+ li a {
     text-decoration: none;
+    display: block;
+    color: black;
     text-align: center;
+    padding: 15px;
+    background-color: aliceblue;
+   
  }
     
 
 header {
     padding: 15px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
 
 }
 
 h1 {
-    position:static;
+    position:relative;
     display: flex;
-    border: 2px solid black;
     font-size: 40px;
     border-radius: 20px;
     padding: 5px;
     align-self: center;
-    justify-content: center;
+    justify-content: flex-start;
     
 
 }
@@ -57,7 +74,7 @@ h1 {
 #about-me h2 {
     display: flex;
     padding: 10px 10px 20px;
-    margin: 10px;
+    margin: 10px 40px 10px;
     font-size: 35px;
     line-height: 30px;
     border: solid black 5px;
@@ -67,11 +84,12 @@ h1 {
 
 #about-me p {
     padding: 0px 30px 20px;
-    margin: 10px;
+    margin: 10px 40px 40px;
     font-size: 20px;
     line-height: 20px;
     border: solid black 5px;
     border-radius: 5px;
+    
 }
 
 #work {
@@ -82,6 +100,7 @@ border: 4px solid black;
 padding: 20px;
 margin: 10px;
 border-radius: 5px;
+gap: 40px
 
 }
 
@@ -102,9 +121,22 @@ padding: 0px 20px 20px;
     width: 100%
 }
 
+#contact-me {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    font-size: 30px;
+    align-items: baseline;
+    
+}
+
 @media screen and (min-width: 769px) {
     section {
         flex-direction: column;
+        
     }
+    
+    
     
 }
