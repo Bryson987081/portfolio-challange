@@ -6,10 +6,6 @@
     background-color: lightskyblue;
 }
 
-body {
-    
-  
- }
 
  header img {
     border-radius: 130px;
@@ -28,7 +24,7 @@ body {
  }
 
   .nav-links a:hover {
-    color: grey purple;
+    color: grey;
  }
 
  ul {
@@ -80,6 +76,7 @@ h1 {
     flex-wrap: wrap;
     width: 95%;
     flex: 30%;
+    margin-top: 80px;
 }
 
 #about-me h2 {
@@ -138,10 +135,14 @@ border-radius: 20px;
     width: 90%
 }
 
+.html-seo-refactor:hover {
+opacity: 0.7;
+filter:alpha(opacity=70);
+}
+
 .coming-soon1, .coming-soon2, .coming-soon3, .coming-soon4{
     width:39%;
 }
-
 
 
 #contact-me {
